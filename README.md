@@ -2,6 +2,9 @@
 
 Interactive Plinko game built with the MERN stack: MongoDB/Mongoose, Express, React, and Node.js.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2148813b-37b4-4423-8a77-a0d8978e924d" />
+
+
 ## Run Locally
 
 ```bash
