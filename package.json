@@ -1,0 +1,35 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "backend/server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "nodemon backend/server/index.js",
+    "client:dev": "vite --host 0.0.0.0 --config frontend/vite.config.js",
+    "build": "vite build --config frontend/vite.config.js",
+    "start": "node backend/server/index.js",
+    "test": "node --test backend/tests/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3",
+    "morgan": "^1.11.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "concurrently": "^10.0.3",
+    "lucide-react": "^1.17.0",
+    "nodemon": "^3.1.14",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "vite": "^8.0.16"
+  }
+}
